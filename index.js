@@ -61,9 +61,5 @@ class TextFit extends Component {
 TextFit.defaultProps = {
   style:{}
 }
-TextFit.propTypes = {
-  children: React.PropTypes.any.isRequired,
-  style: React.PropTypes.object,
-}
 
 export default TextFit;
